@@ -214,7 +214,7 @@ const getSnowStyle = (index) => {
   const size = Math.random() * 8 + 4
   const duration = Math.random() * 15 + 10
   const delay = Math.random() * 5
-  const left = Math.random() * 100
+  const left = Math.random() * 80
   const opacity = Math.random() * 0.6 + 0.2
   
   return {
