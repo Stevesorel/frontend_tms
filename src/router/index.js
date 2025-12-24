@@ -4,7 +4,7 @@ import { createRouter , createWebHistory } from "vue-router"
 import devis from "../component/views/devis.vue"
 
 import home from "../component/views/home.vue"
-import Dashboard from "../component/views/dashboard.vue"
+
 
 const routes = [
     {
@@ -18,9 +18,11 @@ const routes = [
         component:devis
     },
     {
-        path:"/d",
-        name:"d",
-        component:Dashboard
+        path:"/:catchAll(.*)",
+        redirect:"/",
+        meta: {
+            title: "Page non trouvée"
+        }
     }
 ]
 

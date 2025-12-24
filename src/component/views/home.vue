@@ -4,6 +4,7 @@
 
     <div class="content">
       <!-- TEXTE PRINCIPAL -->
+      
       <div class="hero-text">
         <h1>
           Transformez vos visiteurs en clients grâce à un site web
@@ -220,6 +221,12 @@ onUnmounted(() => {
 
 <style scoped>
 /* SECTION PRINCIPALE */
+
+#pere-noel {
+  position: absolute;
+ font-size: 90px;
+}
+
 #home {
   min-height: 100vh;
   display: flex;
