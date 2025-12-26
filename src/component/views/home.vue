@@ -181,7 +181,6 @@ import { ref, onMounted, onUnmounted } from 'vue';
 // Liste des images du diaporama
 const images = ref([
   '/abo.svg',
-  '/logo.svg',
   '/re.svg'
 ]);
 
