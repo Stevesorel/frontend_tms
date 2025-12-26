@@ -166,8 +166,8 @@
           aria-label="Gérer les cookies"
         >
           Cookies
-        </a>
-      </div> -->
+        </a> -->
+      </div>
     </div>
   </footer>
 </template>
