@@ -41,7 +41,7 @@
         </div>
       </div>
 
-      <!-- INDICATEURS DIAPORAMA
+       <!-- INDICATEURS DIAPORAMA -->
       <div class="slider-indicators">
         <button 
           v-for="(image, index) in images" 
@@ -49,7 +49,7 @@
           :class="['indicator', { active: currentIndex === index }]"
           @click="goToSlide(index)"
         ></button>
-      </div> -->
+      </div> 
 
       <!-- SERVICES -->
       <div class="services-section">

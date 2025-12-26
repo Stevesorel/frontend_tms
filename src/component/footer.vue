@@ -141,7 +141,7 @@
 
       <!-- Mentions légales -->
       <div class="legal-links">
-        <a 
+        <!-- <a 
           href="#" 
           class="legal-link"
           @click.prevent="openModal('mentions')"
@@ -167,7 +167,7 @@
         >
           Cookies
         </a>
-      </div>
+      </div> -->
     </div>
   </footer>
 </template>
