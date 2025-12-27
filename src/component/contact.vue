@@ -123,7 +123,7 @@ export default {
             isLoading: false,
             
             // URL de l'API (à adapter selon l'environnement)
-            API_BASE_URL:  "https://37.60.250.220:4000/api" // Exemple: "http://localhost:4000/api/auth" ou import.meta.env.VITE_API_BASE_URL
+            API_BASE_URL:  "https://tms-final.duckdns.org/api" // Exemple: "http://localhost:4000/api/auth" ou import.meta.env.VITE_API_BASE_URL
         }
     },
     methods: {
