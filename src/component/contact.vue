@@ -92,7 +92,7 @@
 
                 <transition name="fade">
                     <div v-if="result.message" class="alert alert-success">
-                        <span class="alert-icon" style="color:white;">✅</span>
+                        <span class="alert-icon" style="color:pink;">✅</span>
                         {{ result.message }}
                     </div>
                 </transition>
@@ -123,7 +123,7 @@ export default {
             isLoading: false,
             
             // URL de l'API (à adapter selon l'environnement)
-            API_BASE_URL:  "http://localhost:4000/api" // Exemple: "http://localhost:4000/api/auth" ou import.meta.env.VITE_API_BASE_URL
+            API_BASE_URL:  "https://37.60.250.220:4000/api" // Exemple: "http://localhost:4000/api/auth" ou import.meta.env.VITE_API_BASE_URL
         }
     },
     methods: {
@@ -343,6 +343,11 @@ export default {
     }
 }
 
+span
+{
+    color:white;
+}
+
 /* En-tête */
 .header-section {
     text-align: center;
@@ -541,6 +546,7 @@ select {
 
 .alert-icon {
     font-size: 1.3em;
+    color:white;
 }
 
 /* Transitions */
