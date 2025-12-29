@@ -21,6 +21,7 @@
                     <div class="card-content">
                         <h2 class="card-title">{{ element.title }}</h2>
                         <p class="card-description">{{ element.messages }}</p>
+                        
                     </div>
 
                     <!-- Ligne de connexion (sauf pour le dernier élément) -->
@@ -321,6 +322,17 @@ export default {
                     title: "Livraison",
                     messages: "Nous vous formons et mettons votre site en ligne avec un suivi personnalisé"
                 }
+                ,{
+                    number: "5",
+                    title: "Paiement sécurisé",
+                    messages: "Le paiement s’effectue uniquement après la livraison, pour garantir votre satisfaction."
+                 }
+                 ,
+                 {
+                    number: "6",
+                    title: "Support continu",
+                    messages: "Nous offrons un support technique et des mises à jour régulières pour assurer la performance de votre site."
+                 }
             ]
         }
     }
