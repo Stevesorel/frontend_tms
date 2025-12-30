@@ -37,7 +37,7 @@
         </div>
         
         <h1 id="hero-title">
-          Boostez votre CA avec un
+          Transformez vos visiteurs en clients grâce à un
           <span class="gradient-text">site web professionnel et performant</span>
         </h1>
 
