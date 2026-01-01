@@ -55,19 +55,23 @@
             <span>Démarrer mon projet</span>
             <span class="btn-icon" aria-hidden="true">🚀</span>
           </button>
-          <!-- <button 
+          <a 
+            href="https://chez-yves.vercel.app/"
             @click="scrollToPortfolio" 
+            target="_blank"
             class="secondary-btn"
             aria-label="Voir nos réalisations"
           >
             <span>Voir nos réalisations</span>
-            <span class="sr-only"> (ouvre la section portfolio)</span>
-          </button> -->
+                       <span class="btn-icon" aria-hidden="true">🚀</span>
+
+        </a>
         </div>
 
         <div class="trust-badges" role="list" aria-label="Avantages">
           <span role="listitem">✅ <span class="badge-text">Devis gratuit 24h</span></span>
-          <span role="listitem">🔒 <span class="badge-text">Paiement sécurisé</span></span>
+          <span role="listitem">🔒 <span class="badge-text">Paiement apres livraison</span></span>
+
           <span role="listitem">🛠️ <span class="badge-text">Support 7j/7</span></span>
         </div>
       </header>
@@ -392,7 +396,7 @@ const services = ref([
 ])
 
 const stats = ref([
-  // { value: '150+', label: 'Sites créés' },
+  { value: '250', label: 'Sites créés' },
   { value: 'x3', label: 'Trafic client moyen' },
   { value: '24h', label: 'Réponse devis' }
 ])
@@ -657,10 +661,18 @@ h1 {
 .trust-badges {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 1.5625rem; /* 25px */
   font-size: clamp(0.875rem, 1.5vw, 0.9375rem);
   color: #ccc;
   flex-wrap: wrap;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  padding: 0.75rem 1.5rem;
+  background: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  border-radius: 3.125rem; /* 50px */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 0.6s ease-out 0.4s both;
 }
 
 .trust-badges span {
@@ -672,6 +684,8 @@ h1 {
 .badge-text {
   color: #fff;
   font-weight: 500;
+  text-transform: uppercase;
+
 }
 
 /* Grilles */

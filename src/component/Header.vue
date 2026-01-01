@@ -28,9 +28,9 @@
       <div class="nav-links" :class="{ 'active': isOpen }">
         <div class="nav-container">
           <a 
-            href="#noel" 
+            href="#home" 
             class="nav-link"
-            @click="handleNavClick($event, 'noel')"
+            @click="handleNavClick($event, 'home')"
           >
             <span class="link-text">Accueil</span>
           </a>
