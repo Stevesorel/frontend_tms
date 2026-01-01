@@ -5,7 +5,7 @@
     
     <!-- Contenu principal -->
     <main class="main-content">
-      <Noel />
+      <!-- <Noel /> -->
       <Home />
       <Formule />
       <Processus />
