@@ -555,6 +555,7 @@ watch(currentIndex, (newIndex, oldIndex) => {
   border-radius: 3.125rem; /* 50px */
   font-size: clamp(0.875rem, 2vw, 1rem);
   margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
   color: var(--color-accent);
   font-weight: 600;
   backdrop-filter: blur(10px);
