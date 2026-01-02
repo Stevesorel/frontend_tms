@@ -393,6 +393,24 @@ const services = ref([
     description: 'Remontez en 1ère page Google.', 
     features: ['Analyse technique', 'Mots-clés', 'Netlinking'] 
   }
+  ,{ 
+    icon: '⚙️', 
+    title: 'Maintenance & Support', 
+    description: 'Votre site toujours à jour et sécurisé.', 
+    features: ['Mises à jour régulières', 'Sauvegardes automatiques', 'Support 7j/7'] 
+  },
+  {
+    icon: '🎨', 
+    title: 'Design sur Mesure', 
+    description: 'Un site qui reflète votre image de marque.', 
+    features: ['Design unique', 'UX/UI optimisé', 'Adapté à votre secteur'] 
+  },
+  { 
+    icon: '🚀', 
+    title: 'Optimisation Performance', 
+    description: 'Un site rapide pour une meilleure conversion.', 
+    features: ['Temps de chargement réduit', 'Hébergement optimisé', 'Analyse continue'] 
+  }
 ])
 
 const stats = ref([
@@ -407,10 +425,10 @@ const whyUs = ref([
     title: 'Design Unique', 
     text: 'Pas de template. Un site qui vous ressemble.' 
   },
-  { 
-    icon: '🛡️', 
-    title: 'Maintenance Sécurisée', 
-    text: 'Mises à jour et sécurité SSL incluses.' 
+  {
+    icon: '⚡', 
+    title: 'Distinctivité', 
+    text: 'Des sites uniques qui se démarquent.'
   },
   { 
     icon: '💰', 
