@@ -9,7 +9,7 @@
     tabindex="0"
   >
     <!-- Slider optimisé avec lazy loading -->
-    <div class="bg-slider">
+    <!-- <div class="bg-slider">
       <div
         v-for="(img, index) in images"
         :key="img.src"
@@ -25,7 +25,7 @@
         :aria-label="img.alt"
         :aria-hidden="index !== currentIndex"
       />
-    </div>
+    </div> -->
 
     <div class="overlay" aria-hidden="true"></div>
 
