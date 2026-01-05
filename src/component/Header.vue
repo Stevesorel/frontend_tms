@@ -4,7 +4,7 @@
     <!-- Logo principal -->
     <div class="logo-section">
       <div class="logo-wrapper">
-        <h1 class="main-logo">TMS²</h1>
+        <h1 class="main-logo">Smartkms</h1>
       </div>
     </div>
 

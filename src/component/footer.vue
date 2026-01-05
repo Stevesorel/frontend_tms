@@ -5,7 +5,7 @@
       <div class="footer-section copyright-section">
         <div class="copyright-content">
           <p class="copyright-text">
-            &copy; 2026 <span class="brand">TMS²</span> - Tous droits réservés
+            &copy; 2026 <span class="brand">Smartkms</span> - Tous droits réservés
           </p>
           <p class="company-info">
             Création de sites web professionnels et performants
