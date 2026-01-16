@@ -24,7 +24,7 @@
           <div class="social-links" aria-labelledby="social-links-title">
             <!-- WhatsApp -->
             <a 
-              href="https://wa.me/237650536195" 
+              href="https://wa.me/237653845486" 
               class="social-link whatsapp-link"
               target="_blank"
               rel="noopener noreferrer"
